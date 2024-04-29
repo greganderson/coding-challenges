@@ -24,4 +24,3 @@ def convert(text:str) -> str:
     cleaned_list = ''.join(characters)
     return cleaned_list
 
-print(convert("ABE"))
