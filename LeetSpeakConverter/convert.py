@@ -19,6 +19,9 @@ def convert(text:str) -> str:
     for char in text:
         if char in translation_table:
             characters.append(translation_table[char])
-    cleaned_list = ''.join(characters).split(',')
+        else:
+            characters.append(char)
+    cleaned_list = ''.join(characters)
     return cleaned_list
 
+print(convert("ABE"))
