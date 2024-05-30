@@ -1,4 +1,4 @@
-#make a simple function that will calculate your age in days 
+# Make a simple function that will calculate your age in days 
 # simply get your age and times it by 365 
 # note: return an int not a str
 
